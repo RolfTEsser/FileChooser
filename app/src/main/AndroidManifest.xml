@@ -15,9 +15,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".FileChooser">
             <intent-filter>
-                <action android:name="de.floresse.fc.FileChooser" />
                 <action android:name="android.intent.action.MAIN"></action>
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="de.floresse.fc.FileChooser" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
