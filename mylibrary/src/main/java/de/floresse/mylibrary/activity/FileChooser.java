@@ -1,5 +1,4 @@
-package de.floresse.fc;
-
+package de.floresse.mylibrary.activity;
 
 import java.io.File;
 import java.lang.reflect.Method;
@@ -49,10 +48,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
-//import com.jaiselrahman.filepicker.activity.FilePickerActivity;
-//import com.jaiselrahman.filepicker.model.MediaFile;
-
-import static android.os.Environment.DIRECTORY_DOCUMENTS;
+import de.floresse.mylibrary.R;
 
 public class FileChooser extends ListActivity {
 
